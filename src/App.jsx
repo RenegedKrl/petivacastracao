@@ -77,6 +77,16 @@ export default function App() {
     { nome: "Cirurgias Ortopédicas", desc: "Correção de fraturas, luxações e ruptura de ligamento cruzado com técnicas avançadas.", cirurgia: true },
     { nome: "Cirurgias Oncológicas", desc: "Remoção de tumores com margem de segurança e suporte cirúrgico avançado.", cirurgia: true },
     { nome: "Cirurgias de Emergência", desc: "Intervenções rápidas e precisas para salvar vidas em casos críticos e agudos.", cirurgia: true },
+    { nome: "Profilaxia e Limpeza de Tártaro", desc: "Procedimento seguro para cães e gatos, prevenindo doenças periodontais, mau hálito e perda de dentes." },
+    { nome: "Endoscopia Veterinária", desc: "Diagnóstico e remoção de corpos estranhos no trato gastrointestinal de forma minimamente invasiva." },
+    { nome: "Biópsias Minimamente Invasivas", desc: "Coleta de amostras de tecidos para diagnóstico preciso com rápida recuperação do pet." },
+    { nome: "Cirurgias Oftalmológicas", desc: "Correção de úlceras de córnea, remoção de catarata e tratamentos avançados para a visão." },
+    { nome: "Laparoscopia", desc: "Cirurgias abdominais realizadas por pequenas incisões, garantindo menos dor e alta precoce." },
+    { nome: "Cirurgias Odontológicas Complexas", desc: "Extrações dentárias avançadas e tratamento de fraturas maxilofaciais." },
+    { nome: "Cirurgias Reconstrutivas", desc: "Reparação de feridas extensas e enxertos de pele após traumas ou remoção de grandes tumores." },
+    { nome: "Rinoscopia e Laringoscopia", desc: "Avaliação das vias aéreas e tratamento de obstruções respiratórias com equipamentos de precisão." },
+    { nome: "Remoção de Cálculos Urinários", desc: "Procedimentos para desobstrução e remoção de pedras nos rins ou bexiga (cistotomia)." },
+    { nome: "Correção de Hérnias", desc: "Tratamento cirúrgico de hérnias umbilicais, inguinais ou diafragmáticas com reforço muscular." },
   ];
 
   const faqs = [
