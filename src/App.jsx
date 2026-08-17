@@ -74,7 +74,7 @@ export default function App() {
   const especialidades = [
     { nome: "Castração (Fêmeas e Machos)", desc: "Procedimento seguro para cães e gatos, prevenindo tumores, infecções uterinas e comportamentos indesejados.", cirurgia: true },
     { nome: "Cirurgias de Tecidos Moles", desc: "Remoção de nódulos, biópsias, cirurgias gastrointestinais e do sistema reprodutor.", cirurgia: true },
-    { nome: "Cirurgias Ortopédicas", desc: "Correção de fraturas, luxações e ruptura de ligamento cruzado com técnicas avançadas.", cirurgia: true },
+
     { nome: "Cirurgias Oncológicas", desc: "Remoção de tumores com margem de segurança e suporte cirúrgico avançado.", cirurgia: true },
     { nome: "Cirurgias de Emergência", desc: "Intervenções rápidas e precisas para salvar vidas em casos críticos e agudos.", cirurgia: true },
     { nome: "Profilaxia e Limpeza de Tártaro", desc: "Procedimento seguro para cães e gatos, prevenindo doenças periodontais, mau hálito e perda de dentes." },
@@ -196,64 +196,40 @@ export default function App() {
             <h2 className="text-3xl font-heading font-bold text-primary mb-10">Sinais de que seu pet precisa de avaliação:</h2>
             <div className="space-y-4 text-left md:text-center">
               <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Presença de nódulos (caroços)</span> na pele ou nas mamas que não estavam lá antes.</p>
-              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Dificuldade para andar ou mancar</span> de forma persistente, o que pode indicar necessidade de cirurgia ortopédica.</p>
+              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Comportamentos indesejados</span>, como marcação de território ou agressividade, que podem ser prevenidos com a castração.</p>
               <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Crescimento de filhote (5 a 6 meses)</span>, marcando a época ideal para castração e prevenção de tumores.</p>
             </div>
           </div>
         </section>
 
-        {/* 4. A VIRADA */}
-        <section className="py-20 bg-primary text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-12 text-white">Não trate sintomas isolados. <br/><span className="text-accent">Cuide da saúde integral</span> do seu pet.</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white/10 p-8 rounded-xl backdrop-blur-sm border border-white/20">
-                <Activity className="w-12 h-12 text-accent mx-auto mb-4" />
-                <h3 className="font-heading font-bold text-xl mb-2 text-white">Diagnóstico Integrado</h3>
-                <p className="text-white/80">Análise completa que cruza especialidades para chegar à causa real do problema.</p>
-              </div>
-              <div className="bg-white/10 p-8 rounded-xl backdrop-blur-sm border border-white/20">
-                <ShieldCheck className="w-12 h-12 text-accent mx-auto mb-4" />
-                <h3 className="font-heading font-bold text-xl mb-2 text-white">Tecnologia Minimamente Invasiva</h3>
-                <p className="text-white/80">Endoscopia e equipamentos de ponta para intervenções seguras e recuperação rápida.</p>
-              </div>
-              <div className="bg-white/10 p-8 rounded-xl backdrop-blur-sm border border-white/20">
-                <HeartPulse className="w-12 h-12 text-accent mx-auto mb-4" />
-                <h3 className="font-heading font-bold text-xl mb-2 text-white">Ambiente Cat Friendly</h3>
-                <p className="text-white/80">Estrutura e equipe adaptadas para reduzir drasticamente o estresse dos felinos.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* 5. OS PILARES DE EXCELÊNCIA */}
-        <section className="py-24 bg-white">
+        <section className="py-24 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary text-center mb-16">A estrutura que o seu <span className="text-accent">melhor amigo merece</span></h2>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-16 text-white">A estrutura que o seu <span className="text-accent">melhor amigo merece</span></h2>
             
             <div className="grid md:grid-cols-3 gap-10">
-              <div className="group bg-surface rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-gray-100">
-                <div className="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6">
+              <div className="group bg-white/10 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-white/20 backdrop-blur-sm">
+                <div className="w-16 h-16 bg-white/10 rounded-xl flex items-center justify-center mb-6">
                   <HeartPulse className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-2xl font-heading font-bold text-primary mb-4">Anestesia Segura (Inalatória)</h3>
-                <p className="text-lg text-text-body">Utilizamos anestesia inalatória com monitoramento multiparamétrico constante, minimizando riscos e garantindo um despertar suave e sem dor.</p>
+                <h3 className="text-2xl font-heading font-bold text-white mb-4">Anestesia Segura (Inalatória)</h3>
+                <p className="text-lg text-white/80">Utilizamos anestesia inalatória com monitoramento multiparamétrico constante, minimizando riscos e garantindo um despertar suave e sem dor.</p>
               </div>
               
-              <div className="group bg-surface rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-gray-100">
-                <div className="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6">
+              <div className="group bg-white/10 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-white/20 backdrop-blur-sm">
+                <div className="w-16 h-16 bg-white/10 rounded-xl flex items-center justify-center mb-6">
                   <Stethoscope className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-2xl font-heading font-bold text-primary mb-4">Centro Cirúrgico Avançado</h3>
-                <p className="text-lg text-text-body">Ambiente rigorosamente esterilizado com equipamentos de suporte à vida de ponta, preparado para castrações eletivas e cirurgias complexas.</p>
+                <h3 className="text-2xl font-heading font-bold text-white mb-4">Centro Cirúrgico Avançado</h3>
+                <p className="text-lg text-white/80">Ambiente rigorosamente esterilizado com equipamentos de suporte à vida de ponta, preparado para castrações eletivas e cirurgias complexas.</p>
               </div>
               
-              <div className="group bg-surface rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-gray-100">
-                <div className="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mb-6">
+              <div className="group bg-white/10 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border border-white/20 backdrop-blur-sm">
+                <div className="w-16 h-16 bg-white/10 rounded-xl flex items-center justify-center mb-6">
                   <Activity className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-2xl font-heading font-bold text-primary mb-4">Recuperação Humanizada</h3>
-                <p className="text-lg text-text-body">Controle rigoroso de dor no pós-operatório e baias super confortáveis. Seu pet fica sob observação intensiva até estar 100% pronto para voltar.</p>
+                <h3 className="text-2xl font-heading font-bold text-white mb-4">Recuperação Humanizada</h3>
+                <p className="text-lg text-white/80">Controle rigoroso de dor no pós-operatório e baias super confortáveis. Seu pet fica sob observação intensiva até estar 100% pronto para voltar.</p>
               </div>
             </div>
           </div>
@@ -333,7 +309,7 @@ export default function App() {
                 { nome: "Lucas e a Nina (Gata)", txt: "Castrei a Nina com a Dra. Talita. O corte foi super pequeno, no dia seguinte ela já estava brincando como se nada tivesse acontecido." },
                 { nome: "Fernanda e o Thor (Golden)", txt: "Estrutura de primeiro mundo no centro cirúrgico. Fizeram a remoção de um nódulo do Thor com muita competência. A recuperação foi ótima." },
                 { nome: "Roberto e o Simba (Gato)", txt: "A anestesia inalatória e o cuidado no pós-operatório fizeram toda a diferença. O Simba castrou e não sentiu dor alguma, indico de olhos fechados." },
-                { nome: "Camila e o Bento (Spitz)", txt: "Tinha pavor de cirurgia, mas a transparência nos exames pré-operatórios me deu paz. A cirurgia ortopédica foi um sucesso absoluto." },
+                { nome: "Camila e o Bento (Spitz)", txt: "Tinha pavor de cirurgia, mas a transparência nos exames pré-operatórios me deu paz. A castração foi um sucesso absoluto." },
                 { nome: "João e o Rex (SRD)", txt: "Excelente clínica, profissionais cirurgiões muito atenciosos. Me senti muito seguro ao deixar o Rex para a castração, deu tudo certo." }
               ].map((dep, i) => (
                 <div key={i} className="w-[280px] md:w-[320px] shrink-0 bg-white p-6 rounded-xl shadow-sm border border-gray-100 relative snap-start flex flex-col">
