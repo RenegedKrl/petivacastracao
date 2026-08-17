@@ -154,7 +154,7 @@ export default function App() {
                   Castração Segura e Especializada para o seu <span className="text-accent">Pet</span>
                 </h1>
                 <p className="text-lg md:text-xl text-text-body mb-8 leading-relaxed">
-                  A sua referência em Castração. Infraestrutura de alta complexidade com centro cirúrgico avançado, anestesia inalatória e monitoramento intensivo. Máxima segurança para o procedimento do seu pet.
+                  A sua referência em Castração. Infraestrutura de alta complexidade com centro cirúrgico avançado, anestesia inalatória e monitoramento intensivo.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href={ctaHero} target="_blank" rel="noreferrer" onClick={trackWhatsAppClick} className="group relative overflow-hidden bg-accent text-white border-2 border-accent px-8 py-4 rounded-full font-bold text-lg text-center transition-all shadow-lg hover:shadow-xl hover:scale-[1.02] inline-flex items-center justify-center gap-2">
@@ -190,14 +190,14 @@ export default function App() {
             </div>
           </div>
         </div>
-{/* 3. SINAIS DE ALERTA */}
+        {/* 3. MOTIVOS PARA CASTRAR */}
         <section className="py-16 bg-surface">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-heading font-bold text-primary mb-10">Sinais de que seu pet precisa de avaliação:</h2>
+            <h2 className="text-3xl font-heading font-bold text-primary mb-10">Por que a castração é essencial para o seu pet:</h2>
             <div className="space-y-4 text-left md:text-center">
-              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Presença de nódulos (caroços)</span> na pele ou nas mamas que não estavam lá antes.</p>
-              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Comportamentos indesejados</span>, como marcação de território ou agressividade, que podem ser prevenidos com a castração.</p>
-              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Crescimento de filhote (5 a 6 meses)</span>, marcando a época ideal para castração e prevenção de tumores.</p>
+              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Prevenção de Doenças:</span> Evita infecções uterinas graves (piometra) e reduz drasticamente o risco de tumores de mama, próstata e testículos.</p>
+              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Melhora Comportamental:</span> Diminui a marcação de território, agressividade por disputa e o risco de fugas, deixando o pet mais dócil e tranquilo.</p>
+              <p className="p-4 bg-white rounded-lg shadow-sm font-medium border-l-4 border-accent text-lg"><span className="text-primary font-bold">Mais Qualidade de Vida:</span> Animais castrados tendem a ter uma expectativa de vida maior, vivendo de forma mais saudável ao seu lado.</p>
             </div>
           </div>
         </section>
